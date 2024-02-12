@@ -27,6 +27,7 @@ try {
 }
 async function start() {
   while (appActive) {
+    console.log("\n \n------- Menu --------");
     console.log(
       "\n 1. View all movies \n 2. Add a new movie \n 3. Update a movie \n 4. Delete a movie \n 5. Exit"
     );
